@@ -7,6 +7,7 @@ export default defineConfig({
     },
     excludeDependenciesOf: [
         "eslint",
+        "stylelint",
         "@typescript-eslint/eslint-plugin",
         "@typescript-eslint/utils",
     ],
