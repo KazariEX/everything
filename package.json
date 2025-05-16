@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.11.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node-modules-inspector",
+    "build": "node-modules-inspector build"
+  },
+  "dependencies": {
+    "@zinkawaii/eslint-config": "catalog:zinkawaii",
+    "@zinkawaii/scripts": "catalog:zinkawaii",
+    "@zinkawaii/stylelint-config": "catalog:zinkawaii",
+    "@zinkawaii/tsconfig": "catalog:zinkawaii",
+    "create-zin": "catalog:zinkawaii",
+    "kerria": "catalog:kazariex",
+    "maestrale": "catalog:kazariex",
+    "plain-shiki": "catalog:kazariex",
+    "pm3genscript": "catalog:kazariex",
+    "propathy": "catalog:kazariex",
+    "zaff": "catalog:kazariex"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:default",
+    "eslint": "catalog:default",
+    "node-modules-inspector": "catalog:default"
+  }
+}
