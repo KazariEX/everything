@@ -13,6 +13,7 @@ catalogs:
     pm3genscript: ^0.1.10
     propathy: ^0.2.1
     zaff: ^1.4.0
+    zfeed: ^0.1.0
   zinkawaii:
     "@zinkawaii/eslint-config": ^0.3.0
     "@zinkawaii/scripts": ^0.0.2

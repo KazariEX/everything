@@ -18,7 +18,8 @@
     "plain-shiki": "catalog:kazariex",
     "pm3genscript": "catalog:kazariex",
     "propathy": "catalog:kazariex",
-    "zaff": "catalog:kazariex"
+    "zaff": "catalog:kazariex",
+    "zfeed": "catalog:kazariex"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:default",

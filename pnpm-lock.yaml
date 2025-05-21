@@ -34,6 +34,9 @@ catalogs:
     zaff:
       specifier: ^1.4.0
       version: 1.4.0
+    zfeed:
+      specifier: ^0.1.0
+      version: 0.1.0
   zinkawaii:
     '@zinkawaii/eslint-config':
       specifier: ^0.3.0
@@ -88,6 +91,9 @@ importers:
       zaff:
         specifier: catalog:kazariex
         version: 1.4.0
+      zfeed:
+        specifier: catalog:kazariex
+        version: 0.1.0
     devDependencies:
       '@antfu/eslint-config':
         specifier: catalog:default
@@ -2545,6 +2551,9 @@ packages:
 
   zaff@1.4.0:
     resolution: {integrity: sha512-dXHOSduv3GN1qbnAat83zmUv1n3d6YjPC26u8gZ6jMjZGd0GwGhSehzOWi7D6nfWE7rJknFuQl9IX1bObxjOzw==}
+
+  zfeed@0.1.0:
+    resolution: {integrity: sha512-vZ9cl7+PNheuhU7zGJ2mClG3MGosH1l1dCiof9wtPf+SYmXAYud+EePQlzabkhsJnke41BzDkPfLqD1LPrSu2A==}
 
   zod-to-json-schema@3.24.5:
     resolution: {integrity: sha512-/AuWwMP+YqiPbsJx5D6TfgRTc4kTLjsh5SOcd4bLsfUg2RcEXrFMJl1DGgdHy2aCfsIA/cr/1JM0xcB2GZji8g==}
@@ -5346,6 +5355,8 @@ snapshots:
       '@zaffjs/core': 1.4.0
       '@zaffjs/parser': 1.4.0
       '@zaffjs/utils': 1.4.0
+
+  zfeed@0.1.0: {}
 
   zod-to-json-schema@3.24.5(zod@3.24.4):
     dependencies:
