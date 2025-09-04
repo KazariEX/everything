@@ -23,7 +23,6 @@
     "zfeed": "catalog:kazariex"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "catalog:",
     "eslint": "catalog:",
     "node-modules-inspector": "catalog:"
   }
