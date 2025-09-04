@@ -1,12 +1,12 @@
 shamefullyHoist: true
 
-catalog:
-  "@antfu/eslint-config": ^4.16.1
-  eslint: ^9.30.0
-  node-modules-inspector: ^1.0.0
-
 catalogs:
+  default:
+    "@antfu/eslint-config": ^5.2.2
+    eslint: ^9.34.0
+    node-modules-inspector: ^1.1.1
   kazariex:
+    "@swapswap/typescript-plugin": ^0.0.2
     kerria: 0.2.4
     maestrale: ^0.1.3
     plain-shiki: ^0.3.0
@@ -15,11 +15,11 @@ catalogs:
     zaff: ^1.4.0
     zfeed: ^0.2.3
   zinkawaii:
-    "@zinkawaii/eslint-config": ^0.3.0
-    "@zinkawaii/scripts": ^0.0.2
-    "@zinkawaii/stylelint-config": ^0.3.2
+    "@zinkawaii/eslint-config": ^0.4.1
+    "@zinkawaii/scripts": ^0.0.3
+    "@zinkawaii/stylelint-config": ^0.3.3
     "@zinkawaii/tsconfig": ^0.0.2
-    create-zin: ^0.0.11
+    create-zin: ^0.0.12
 
 onlyBuiltDependencies:
   - unrs-resolver

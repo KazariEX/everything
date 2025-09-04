@@ -1,13 +1,14 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.15.1",
   "license": "MIT",
   "scripts": {
     "dev": "node-modules-inspector",
     "build": "node-modules-inspector build"
   },
   "dependencies": {
+    "@swapswap/typescript-plugin": "catalog:kazariex",
     "@zinkawaii/eslint-config": "catalog:zinkawaii",
     "@zinkawaii/scripts": "catalog:zinkawaii",
     "@zinkawaii/stylelint-config": "catalog:zinkawaii",
@@ -22,8 +23,8 @@
     "zfeed": "catalog:kazariex"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "catalog:default",
-    "eslint": "catalog:default",
-    "node-modules-inspector": "catalog:default"
+    "@antfu/eslint-config": "catalog:",
+    "eslint": "catalog:",
+    "node-modules-inspector": "catalog:"
   }
 }
