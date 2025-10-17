@@ -1,14 +1,15 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.18.3",
   "license": "MIT",
   "scripts": {
     "dev": "node-modules-inspector",
     "build": "node-modules-inspector build"
   },
   "dependencies": {
-    "@swapswap/typescript-plugin": "catalog:kazariex",
+    "@dxup/nuxt": "catalog:kazariex",
+    "@dxup/unimport": "catalog:kazariex",
     "@zinkawaii/eslint-config": "catalog:zinkawaii",
     "@zinkawaii/scripts": "catalog:zinkawaii",
     "@zinkawaii/stylelint-config": "catalog:zinkawaii",
